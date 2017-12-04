@@ -34,7 +34,7 @@ def run()
 	resultsUnique = false
 	puts 'shuffling...'
 	while not resultsUnique
-		matchups.shuffle!
+		matchups.shuffle!(random: Random.new(Random.new_seed)) #helps to ensure the shuffling is more unique
 		#puts "match: " + matchups.to_s
 		resultsUnique = checkUnique(participants,matchups)
 	end #while
