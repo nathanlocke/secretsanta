@@ -20,14 +20,14 @@ end
 def run()
 	puts 'starting'
 
-	A = Santa.new("A","Auseremail@email.com","A\n111 Address Dr\nCity, ST 11111")
-	B = Santa.new("B", "Buseremail@email.com", "B\n222 Address Ct\nTown, ST 22222")
-	C = Santa.new("C","Cuseremail@email.com","C\n333 Address Ave\nVillage, ST 33333")
-	D = Santa.new("D", "Duseremail@email.com", "D\n444 Address Rd\nCity, ST 44444")
-	E = Santa.new("E","Euseremail@email.com","E\n555 Address Blvd\nTown, ST 55555")
-	F = Santa.new("F","Fuseremail@email.com","F\n666 Address St\nVillage, ST 66666")
+	a = Santa.new("A","Auseremail@email.com","A\n111 Address Dr\nCity, ST 11111")
+	b = Santa.new("B", "Buseremail@email.com", "B\n222 Address Ct\nTown, ST 22222")
+	c = Santa.new("C","Cuseremail@email.com","C\n333 Address Ave\nVillage, ST 33333")
+	d = Santa.new("D", "Duseremail@email.com", "D\n444 Address Rd\nCity, ST 44444")
+	e = Santa.new("E","Euseremail@email.com","E\n555 Address Blvd\nTown, ST 55555")
+	f = Santa.new("F","Fuseremail@email.com","F\n666 Address St\nVillage, ST 66666")
 
-	participants = [A,B,C,D,E,F]
+	participants = [a,b,c,d,e,f]
 
 	matchups = Array.new(participants)
 
